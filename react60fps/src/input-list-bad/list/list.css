@@ -1,0 +1,11 @@
+.media-list {
+  max-width: 1400px;
+  margin: 20px auto;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+}
+.media-list__status {
+  display: block;
+  text-align: center;
+}
